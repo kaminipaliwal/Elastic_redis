@@ -23,7 +23,7 @@ const phraseSearch = async (_index, _type, phrase) => {
             ],
             query: phrase,
             type: 'phrase_prefix',
-            //lenient: true
+            
           },
         },
         highlight: {
